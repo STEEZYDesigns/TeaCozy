@@ -1,0 +1,195 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+a {
+    color: seashell;
+}
+
+header {
+    display: inline-flex;
+    width: 100%;
+    height: 69px;
+    margin: 0;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    align-items: center;
+}
+
+.TeaCozyLogo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav {
+    display: inline-flex;
+    width: 90%;
+    justify-content: flex-end;
+
+}
+
+section {
+    min-width: 1200px;
+}
+
+.HeaderNav {
+    align-items: flex-end;
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.OurMission {
+    margin: 69px 0px 0px 13%;
+    display: inline-flex;
+    height: 700px;
+    width: 1200px;
+    background-image: url("img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.OurMissionText {
+    width: 100%;
+    justify-content: center;
+}
+
+.OurMissionText h2, h4 {
+    display: inline-flex;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    margin: 0 auto;
+}
+/*
+.OurMissionText h4 {
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    margin: 0 auto;
+}
+*/
+
+.TOMHeader {
+    margin: 0px 0px 0px 13%;
+    max-width: 1200px;
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.TOMHeader h2 h4 {
+    display: inline;
+    justify-content: flex-end;
+}
+
+.TOMHeaderText {
+    width: 1000px;
+}
+
+.TOMGalleryWrapper {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px 0px 20%;
+}
+
+.TOMGalleryEntry {
+    max-width: 300px;
+    align-items: center;
+    height: 260px;
+    padding: 10px;
+}
+
+
+/* It would actually probably be easier to CSS some background images, for the Gallery. But for practice's sake
+I will attempt to position imgs */
+.TOMGalleryEntry img {
+    justify-content: flex-start;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.TOMGalleryEntry h4 {
+   
+}
+
+.centered {
+    width: 100%;
+    justify-content: center;
+}
+
+.LocationsWrapper {
+    background-image: url("img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 13%;
+    text-align: center;
+}
+
+.LocationsWrapper ul {
+    list-style: none;
+    text-align: center;
+    justify-content: space-around;
+    padding: 0px;
+    min-width: 300px;
+}
+
+.Locations h2 {
+    font-weight: bold;
+}
+
+.Locations h4 {
+    display: inline-block;
+    background: transparent;
+    margin-bottom: 15px;
+}
+
+.LocationsText li {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.LocationsText {
+    min-width: 300px;
+    margin-right: 40px;
+    background-color: black;
+    display: inline-flex;
+}
+
+.ContactUs {
+    width: 1200px;
+    margin-left: 11%;
+}
+
+.ContactUs h4 {
+    display: inline-flex;
+}
+.ContactUs h5 {
+    justify-content: space-around;
+}
+
+.ContactUs ul {
+    list-style: none;
+    justify-content: space-around;
+    text-align: center;
+}
+
